@@ -20,8 +20,8 @@ This repository contains work for the four-task computer vision assignment. The 
 | Task | Work done | Main result or next step |
 |---|---|---|
 | 1 — pretrained segmentation | Built a Grounding DINO + SAM workflow and saved masks and previews. | Use the second-try notebook and its `combined_masks` as the Task 1 reference set. |
-| 2 — classical segmentation | Tried thresholds, colour rules, candidate blobs, GrabCut, and an ellipse search. The final notebook records the trials and saves predictions, metrics, settings, and a zip. | The third-try notebook is the current final version. Run it again to regenerate the outputs if they were not saved. |
-| 3 — evaluation | Notebook is prepared to compare saved Task 2 predictions against Task 1 masks. | Run Task 2 first, then point Task 3 to both result folders. |
+| 2 — classical segmentation | Tried thresholds, colour rules, candidate blobs, GrabCut, and an ellipse search. The final notebook records the trials and saves predictions, metrics, settings, and a zip. | The third-try notebook is the current final version. The saved run is available under Task2/task2_results/task2_results/, including masks, metrics, and the final config. |
+| 3 — evaluation | Notebook is prepared to compare saved Task 2 predictions against Task 1 masks. | Task 3 is set up for local use and finds the repository dataset and Task 1 masks automatically. It also detects the saved Task 2 outputs under Task2/task2_results/task2_results/. |
 | 4 — video tracking | Notebook is prepared to segment video frames and associate detections between frames. | Run Task 2 first so Task 4 can load its saved settings, then run the video notebook. |
 
 ## Task 2 experiments in plain English
